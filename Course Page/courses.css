@@ -1,0 +1,98 @@
+html {
+    background-image: url(../pictures/neutral.webp);
+    background-size: cover;
+   }
+header{
+    text-align: center;
+}
+nav a, title{
+    text-decoration: none;
+    color: #233952;
+    font-size: 24px;
+}
+a:hover,title{
+    color:#B3B3E6;
+}
+h1{
+    font-style: normal;
+    color: #000;
+}
+select{
+    height: 25px;
+    color:#B3B3E6
+}
+table{
+    width: auto;
+    border-spacing: auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+th { 
+    text-align: center;
+    background-color: #B3B3E6;
+    font-style: italic;
+}
+td {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+tr:nth-last-child(odd) {
+    background-color: #FFFF;
+}
+tr:nth-last-child(even) {
+    background-color: #ececfd;
+}
+
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav; 
+}
+nav ul {
+    float: right; 
+}
+nav ul li {
+    display: inline-block;
+}
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+aside { 
+    grid-area: aside;
+    text-align: center;
+}
+aside h1 {
+    font-style: italic;
+}
+
+#layout {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-areas:
+    "nav nav"  
+    "header header" 
+    "main aside" 
+    "footer footer";
+}
+.FavoriteClasses {
+    border: 2px dotted black;
+    min-height: 50px;
+}
+
+
+

@@ -1,0 +1,82 @@
+html{
+    background-image:url(../pictures/neutral\ background.jpeg);    
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ 
+h1{
+    text-align: center;
+    color:#B3B3E6;
+   
+}
+select{
+    height: 25px;
+}
+.container{
+    max-width: 700px;
+    height: 550px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #bb0000(72,98,85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+  }
+
+footer{text-align:center;}
+ 
+nav a, title{
+    text-decoration: none;
+    color: #B3B3E6;
+    font-size: 24px;
+}
+ 
+a:hover,title{
+    color:#B3B3E6;
+}
+ 
+legend{
+    background-color: #B3B3E6;
+    padding: 5px 10px;
+    color: white;
+}
+ 
+fieldset{
+    margin: auto;
+    padding: 20px;
+    color: #233952;
+    background-color: #FFFF;
+    font-family:"Sans-Serif";
+}
+ 
+div{
+    padding:5px
+}
+ 
+select,input,textarea{
+    font-family:"Sans-Serif";
+    background-color: #FFFF;
+    cursor: pointer;
+}
+.submit-btn {
+    text-align: center;
+}
+.btn{
+
+    width: 250px;
+    background: #B3B3E6;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-image: linear-gradient(#ADD8E6,#B3B3E6); /* I added a gradiant to the button to add a little pop of color and make the contact page more intricate. It is aesthetically pleasing. */
+  }
+ 
+label{
+    height: 25px;
+    color:#B3B3E6
+}
+ 

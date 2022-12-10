@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content=""IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="contact forms.css"
+</head>
+<body>
+<nav>
+  <a href="../abigail homepage/index.html">Homepage</a>
+</nav>
+ 
+<header>
+  <h1>Contact Me</h1>
+</header>
+ 
+<form action="mailto:abigail.nguyen@ucdenver.edu" method="post" id="ContactMe" name="ContactMeForm">
+
+<div class="container">
+<fieldset style="width: 10;">
+<legend>Contact Information</legend>
+  <div>
+  <label for="Fn">First Name:</label>
+  <input type="text" id="Fn" name="FirstName" size="50" placeholder="First" required>
+  </div>
+ 
+  <div>
+  <label for="Ln">Last Name:  </label>
+  <input type="text" id="Ln" name="LastName" size="50" placeholder="Last" required>
+  </div>
+ 
+  <div>
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" name="EmailAddress" size="50" placeholder="Email Address" required>
+  </div>
+
+  <div>
+    <label for="Subject">Subject:</label>
+    <input type="subject" id="subject" name="subject" size="50" placeholder="Inquiry" required>
+  </div>
+ 
+<div>
+  <label for="Position">Title:</label>
+  <select name="Position" id="Title">
+    <option value="Student">Student</option>
+    <option value="Professor">Professor</option>
+    <option value="Employeer">Employeer</option>
+    <option value="Campus Recruiter">Campus Recruiter</option>
+  </select>
+</div>
+<label for="Contact">Send Message</label><br/>
+<textarea name="suggest" id="Contact" rows="10" cols="80"></textarea>
+ 
+  <div class="submit-btn">
+    <input class="btn" type="submit" value="Send Message"></input>
+  </div>
+</fieldset>
+</form>
+</body>
+</html>
+
+ 
